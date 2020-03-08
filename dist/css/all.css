@@ -1,0 +1,43 @@
+
+/* overwrite lightbox css */
+.lb-data .lb-close {
+  background-image: url(../images/lightbox2/close.png);
+}
+.lb-cancel {
+  background-image: url(../images/lightbox2/loading.gif);
+}
+.lb-nav a.lb-next {
+  background-image: url(../images/lightbox2/next.png);
+}
+.lb-nav a.lb-prev {
+  background-image: url(../images/lightbox2/prev.png);
+}
+
+
+
+/* overwrite swiper css */
+.swiper-container {
+    width: 100%;
+    height: 286px;
+}
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 246px;
+  height: 246px;
+}
+
+
+
+/* custom css */
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+}
